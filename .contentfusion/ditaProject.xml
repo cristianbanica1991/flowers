@@ -9,4 +9,9 @@
         <output href="pdf-output"/>
         <publication idref="pdf"/>
     </deliverable>
+    <deliverable id="tetsst-1698761907249" name="tetsst">
+        <context idref="ysuxqFVskCmYANF"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
+    </deliverable>
 </project>
