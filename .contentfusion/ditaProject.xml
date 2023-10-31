@@ -3,4 +3,10 @@
     <context id="ysuxqFVskCmYANF" name="flowers">
         <input href="../flowers.ditamap"/>
     </context>
+    <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="HELLO-1698738608295" name="HELLO">
+        <context idref="ysuxqFVskCmYANF"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
+    </deliverable>
 </project>
