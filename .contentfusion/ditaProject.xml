@@ -10,7 +10,9 @@
     <deliverable id="HELLO-1698738608295" name="HELLO">
         <context idref="ysuxqFVskCmYANF"/>
         <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <publication idref="pdf">
+            <param name="pdf.publishing.template" value="cf://templates/Oxygen"/>
+        </publication>
     </deliverable>
     <deliverable id="tetsst-1698761907249" name="tetsst">
         <context idref="ysuxqFVskCmYANF"/>
