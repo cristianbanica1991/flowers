@@ -24,6 +24,8 @@
     <deliverable id="Flowers_TestXXXXXXXXXX-1698828922207" name="Flowers TestXXXXXXXXXX">
         <context idref="ysuxqFVskCmYANF"/>
         <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <publication idref="pdf">
+            <param name="pdf.publishing.template" value="cf://templates/Oxygen"/>
+        </publication>
     </deliverable>
 </project>
