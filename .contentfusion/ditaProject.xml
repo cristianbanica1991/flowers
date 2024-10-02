@@ -7,6 +7,7 @@
         <input href="../flowers.ditamap"/>
     </context>
     <publication id="pdf" transtype="pdf-css-html5"/>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
     <deliverable id="HELLO-1698738608295" name="HELLO">
         <context idref="ysuxqFVskCmYANF"/>
         <output href="pdf-output"/>
@@ -26,6 +27,14 @@
         <output href="pdf-output"/>
         <publication idref="pdf">
             <param name="pdf.publishing.template" value="cf://templates/Oxygen"/>
+        </publication>
+    </deliverable>
+    <deliverable id="d-test-1727852487646" name="test">
+        <context idref="HpvdqXIPbAdrWdJ"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param name="webhelp.publishing.template" value=".contentfusion/templates/uuy67"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
 </project>
