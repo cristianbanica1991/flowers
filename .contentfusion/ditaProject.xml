@@ -17,7 +17,9 @@
     <deliverable id="tetsst-1698761907249" name="tetsst">
         <context idref="ysuxqFVskCmYANF"/>
         <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <publication idref="pdf">
+            <param name="pdf.publishing.template" value="cf://templates/Oxygen"/>
+        </publication>
     </deliverable>
     <deliverable id="Flowers_TestXXXXXXXXXX-1698828922207" name="Flowers TestXXXXXXXXXX">
         <context idref="ysuxqFVskCmYANF"/>
